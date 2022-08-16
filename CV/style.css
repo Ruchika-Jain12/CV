@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Oxygen:wght@300;400&family=PT+Sans&family=Satisfy&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+div.header{
+    background-color: #dfeded;
+    color: #66BFBF;
+}
+
+div.header img.cloud{
+    width: 200px;
+    
+}
+
+div.header img.cloud1{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+}
+
+div.header img.cloud2{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    margin: 30px 0;
+}
+
+div.header img.mountain{
+    width: 50%;
+    margin: 100px 25% 0 25%;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    padding: 130px 40px 5px;
+    font-size: 90px;
+}
+
+.header span{
+    text-decoration: underline;
+}
+
+.header h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+} 
+
+.midSection img{
+    width: 200px;
+    margin: 50px auto 30px auto;
+}
+
+.midSection h2{
+    margin: 0 auto 30px;
+}
+
+.midSection{
+    text-align: center;
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+.midSection p{
+    margin-bottom: 50px;
+}
+
+.education{
+   text-align: center;
+}
+
+.education table{
+    width: 50%;
+    margin: 50px auto;
+    /* text-align: center;
+    margin: 25px 25% 25px 25%; */
+}
+
+.education img{
+    /* float: right;
+    margin: 0 200px 0 50px; */
+    position: absolute;
+    left: 150px;
+    top: 1400px;
+}
+
+.language{
+    text-align: center;
+    position: relative;
+}
+
+.language ul {
+    width: 50%;
+    margin: 50px 43%;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.language img{
+    position: absolute;
+    width: 200px;
+    right: 350px;
+    top: 40px;
+}
+
+.projects{
+    text-align: center;
+}
+
+.projects img{
+    width: 200px;
+    position: absolute;
+    left: 300px;
+    top: 1985px;
+}
+
+.projects ul{
+    width: 50%;
+    margin: 50px 43% 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.strength{
+    text-align: center;
+}
+
+.strength img{
+    width: 250px;
+    position: absolute;
+    top: 2260px;
+    left: 1030px;
+}
+
+.strength ul{
+    margin: 50px auto 50px 40%;
+    text-align: justify;
+}
+
+.objective{
+    text-align: center;
+}
+
+.objective img{
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 2610px;
+
+}
+
+.objective p{
+    margin: 50px auto 100px;
+    width: 38%;
+    line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px #1b5251;
+    color: #f5ffff;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 65px 44%;
+  }
+  
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    color: rgb(224, 248, 255);
+  }
+
+.footer{
+    background-color:#dfeded;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #66BFBF;
+    padding: 20px 20px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.footer a:hover{
+    color: #3b8989;
+}
+
+hr{
+    border: 4px dotted rgba(211, 211, 211, 0.623);
+    width: 10%;
+    border-bottom:none ;
+}
+
+h2{
+    color: #91bdbd;
+    font-size: 40px;
+}
+
